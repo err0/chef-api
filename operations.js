@@ -4,7 +4,7 @@ var url = require('url');
 var crypto = require('crypto');
 var exec = require('child_process').exec;
 var _ = require("lodash");
-var key = require('ursa').coercePrivateKey;
+var key = require('ursa-purejs').coercePrivateKey;
 
 exports.operations = function(config){
     return {
